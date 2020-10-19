@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfactive"
+		},
+		"AzureBatch1_accessKey": {
+			"value": ""
+		},
+		"AzureBatch2_accessKey": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBatch1_properties_typeProperties_accountName": {
+			"value": "batchrockytar"
+		},
+		"AzureBatch1_properties_typeProperties_batchUri": {
+			"value": "https://batchrockytar.eastus.batch.azure.com"
+		},
+		"AzureBatch1_properties_typeProperties_poolName": {
+			"value": "custom-act-pool"
+		},
+		"AzureBatch2_properties_typeProperties_accountName": {
+			"value": "batchrockytar"
+		},
+		"AzureBatch2_properties_typeProperties_batchUri": {
+			"value": "https://batchrockytar.eastus.batch.azure.com"
+		},
+		"AzureBatch2_properties_typeProperties_poolName": {
+			"value": "custom-pool"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
