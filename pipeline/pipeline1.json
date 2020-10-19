@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"command": "python main.py",
+					"command": "python main2.py",
 					"resourceLinkedService": {
 						"referenceName": "AzureBlobStorage1",
 						"type": "LinkedServiceReference"
@@ -27,7 +27,7 @@
 					}
 				},
 				"linkedServiceName": {
-					"referenceName": "AzureBatch1",
+					"referenceName": "AzureBatch2",
 					"type": "LinkedServiceReference"
 				}
 			}
